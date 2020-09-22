@@ -54,8 +54,7 @@ extension CharacterDataTableViewCell : UICollectionViewDelegate,UICollectionView
         print("selected")
          let storyboard =  UIStoryboard(name: "CharImage", bundle: nil)
          let charImage = storyboard.instantiateViewController(identifier: "charImage") as! CharacterImageViewController
-        //charImage.modalPresentationStyle = .
-        controllerRef?.present(charImage, animated: true, completion: nil)
+//        controllerRef?.present(charImage, animated: true, completion: nil)
         
     }
     
